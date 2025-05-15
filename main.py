@@ -2,8 +2,8 @@ import socketio
 import numpy as np
 import asyncio
 from fastapi import FastAPI
-from keras.models import load_model
-from keras.losses import MeanSquaredError
+from keras.models import load_model # type: ignore
+from keras.losses import MeanSquaredError # type: ignore
 from PIL import Image
 import base64
 from io import BytesIO
